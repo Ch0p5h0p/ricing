@@ -46,5 +46,3 @@ PROMPT='%B%F{cyan}%n@%m %F{green}[ %~ ] %#%b%F{white} '
 #PROMPT='%B%F{cyan}%n@%m%f %F{green}[ %~ ]%f%b
 #%F{yellow}➜%f '
 RPROMPT='%F{blue}%*%f'  # current time
-
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
