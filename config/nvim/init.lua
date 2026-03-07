@@ -17,6 +17,24 @@ vim.api.nvim_create_user_command(
     }
 )
 
+require("noice").setup({
+	lsp = {
+		override = {
+			["vim.lsp.util.convert_input_to_markdown_lines"] = true,
+			["vim.lsp.util.stylize_markdown"] = true,
+			["cmp.entry.get_documentation"] = true,
+		},
+	},
+
+	presets = {
+		bottom_search = true,
+		command_palette = true,
+		long_message_to_split = true,
+		inc_rename = false,
+		lsp_doc_border = false,
+	},
+})
+
 vim.api.nvim_create_user_command('M', function(opts) vim.cmd("ManPages "..opts.args) end, { desc = "Alias for ManPages", nargs = '?'})
 
 vim.api.nvim_create_user_command('CRun', function()
