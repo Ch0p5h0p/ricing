@@ -162,10 +162,20 @@ PROMPT='%B%F{cyan}%n@%m %F{green}[ %~ ] #%b%F{white} '
 RPROMPT='%F{blue}%*%f'  # current time
 
 # Created by `pipx` on 2026-02-09 23:32:52
-#export PATH="$PATH:/home/Radar77/.local/bin"
+#export PATH="$PATH:$HOME/.local/bin"
 
 #source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# opencode
-export PATH=/home/Radar77/.opencode/bin:$PATH
+fe() {
+	local file
+	file=$(fzf --height 40% --layout=reverse --border --preview 'bat --style=numbers --color=always {} 2>/dev/null || cat {}')
+	if [ -n "$file" ]; then
+		nvim "$file"
+	fi
+}
+
+bindkey -s '^f' 'fe\n'
+
+# emacs stuff
+export PATH=$HOME/Tools/butano:$PATH
