@@ -1,4 +1,4 @@
-return {
+--[[return {
 	"folke/noice.nvim",
 	event = "VeryLazy",
 	opts = {
@@ -8,4 +8,5 @@ return {
 		"MunifTanjim/nui.nvim",
 		"rcarriga/nvim-notify",
 	},
-}
+}]]
+return {}

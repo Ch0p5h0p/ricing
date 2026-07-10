@@ -46,6 +46,7 @@
 #backlight,
 #battery,
 #pulseaudio,
+#custom-notification,
 #custom-power {
   padding: 0.2rem 0.5rem;
 }
@@ -111,6 +112,24 @@
 
 #custom-power {
   color: @red;
+}
+
+#custom-notification {
+  color: @blue;
+}
+
+#custom-notification.notification {
+  color: @red;
+  text-shadow: 0 0 4px @red;
+}
+
+#custom-notification.dnd {
+  color: @lavender;
+}
+
+#custom-notification.dnd.notification {
+  color: @maroon;
+  text-shadow: 0 0 4px @maroon;
 }
 
 #cava {

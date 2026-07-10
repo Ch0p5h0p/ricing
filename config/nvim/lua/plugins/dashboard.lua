@@ -52,11 +52,12 @@ return {
 					icon_hl = 'Title',
 					desc = 'File explorer',
 					desc_hl = 'String',
-					key = 'f',
+					key = ' ',
 					--keymap = 'f',
 					key_hl = 'Number',
-					key_format = "[%s]",
-					action = 'Ex'
+					key_format = "[e]",
+					--action = 'Ex'
+					--action = 'Oil'
 				},
 				{
 					icon = " ",

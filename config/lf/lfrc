@@ -1,3 +1,0 @@
-set waitmsg ""
-map . set hidden!
-map <enter> open

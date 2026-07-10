@@ -22,5 +22,5 @@ family = "Adwaita Mono Nerd Font"
 style = "Bold Italic"
 
 [window]
-opacity = 0.85
+opacity = 0.65
 blur = true
