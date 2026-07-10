@@ -1,0 +1,9 @@
+@theme "catppuccin-default"
+
+configuration {
+	modi: "window,run,drun,filebrowser,ssh";
+	terminal: "alacritty";
+	filebrowser {
+		directory: "/home/Radar77";
+	}
+}
