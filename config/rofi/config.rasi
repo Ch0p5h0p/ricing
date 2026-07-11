@@ -4,6 +4,6 @@ configuration {
 	modi: "window,run,drun,filebrowser,ssh";
 	terminal: "alacritty";
 	filebrowser {
-		directory: "/home/Radar77";
+		directory: "/home/radar77";
 	}
 }
