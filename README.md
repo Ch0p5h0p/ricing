@@ -7,4 +7,4 @@ Dotfiles, neovim configs, etc.
 
 ## HISTORY
 |---|---|
-|![original-empty](past-rice/original-blank.png)|![original-populated](past-rice/original-populated.png|
+|![original-empty](past-rice/rice-original-blank.png) | ![original-populated](past-rice/rice-original-populated.png|
