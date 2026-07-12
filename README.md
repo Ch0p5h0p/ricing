@@ -6,5 +6,6 @@ Dotfiles, neovim configs, etc.
 - Copy .zshrc into ~ 
 
 ## HISTORY
+| Empty | Populated |
 |---|---|
-|![original-empty](past-rice/rice-original-blank.png) | ![original-populated](past-rice/rice-original-populated.png|
+|![original-empty](past-rice/rice-original-blank.png) | ![original-populated](past-rice/rice-original-populated.png)|
