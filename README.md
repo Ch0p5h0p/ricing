@@ -5,6 +5,18 @@ Dotfiles, configs, etc.
 - Copy everything in config into ~/.config
 - Copy .zshrc into ~ 
 
+## CONTAINS CONFIGS FOR
+- neovim
+- alacritty
+- cava
+- hyprland
+- hyprlock
+- hyprpaper
+- gtk 3.0 and 4.0
+- ranger
+- rofi
+- waybar
+
 ## HISTORY
 | Empty | Populated |
 |---|---|
