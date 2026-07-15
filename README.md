@@ -1,5 +1,5 @@
 # Ch0p's dots
-Dotfiles, neovim configs, etc.
+Dotfiles, configs, etc.
 
 ## INSTALLATION
 - Copy everything in config into ~/.config
