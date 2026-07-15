@@ -7,6 +7,7 @@ Dotfiles, configs, etc.
 
 ## CONTAINS CONFIGS FOR
 - neovim
+- fastfetch
 - alacritty
 - cava
 - hyprland
