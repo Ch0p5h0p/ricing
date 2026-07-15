@@ -1,4 +1,4 @@
-# Ch0p's Ricing
+# Ch0p's dots
 Dotfiles, neovim configs, etc.
 
 ## INSTALLATION
